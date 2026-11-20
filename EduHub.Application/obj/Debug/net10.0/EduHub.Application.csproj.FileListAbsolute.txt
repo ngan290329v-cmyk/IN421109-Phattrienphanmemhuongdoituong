@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\bin\Debug\net10.0\EduHub.Application.deps.json
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\bin\Debug\net10.0\EduHub.Application.dll
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\bin\Debug\net10.0\EduHub.Application.pdb
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\EduHub.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\EduHub.Application.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\EduHub.Application.AssemblyInfo.cs
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\EduHub.Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\EduHub.Application.dll
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\refint\EduHub.Application.dll
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\EduHub.Application.pdb
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\ref\EduHub.Application.dll
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\bin\Debug\net10.0\EduHub.Domain.dll
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\bin\Debug\net10.0\EduHub.Domain.pdb
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\EduHub.Application.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\EduHub\EduHub.Application\obj\Debug\net10.0\EduHub.A.77F9212D.Up2Date
