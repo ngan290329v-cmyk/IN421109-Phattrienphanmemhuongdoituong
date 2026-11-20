@@ -26,30 +26,6 @@ Dòng 6-10: EventService vừa kiểm tra dữ liệu, lưu dữ liệu vào cơ
 Dòng 11-14: Khi thêm một kênh thông báo mới phải sửa trực tiếp câu lệnh if-else trong EventService.
 - DIP (Dependency Inversion Principle):
 Dòng 8, 12, 14: EventService phụ thuộc trực tiếp vào các lớp cụ thể như SqlConnection, EmailSender và SmsSender thay vì phụ thuộc vào abstraction.
-## Câu 5a. Clean Architecture
-### 1. Thiết lập tham chiếu giữa các project
-- EduHub.Application tham chiếu EduHub.Domain.
-- EduHub.Infrastructure tham chiếu EduHub.Application và EduHub.Domain.
-- EduHub.API tham chiếu EduHub.Application và EduHub.Infrastructure.
-### 2. Sơ đồ bốn lớp và chiều phụ thuộc
-```mermaid
-flowchart TD
-    API["EduHub.API"]
-    APP["EduHub.Application"]
-    INFRA["EduHub.Infrastructure"]
-    DOMAIN["EduHub.Domain"]
-    API --> APP
-    API --> INFRA
-    INFRA --> APP
-    INFRA --> DOMAIN
-    APP --> DOMAIN
-
-### 3. Vị trí các thành phần
-- Event: EduHub.Domain/Entities/Event.cs
-- IEventRepository: EduHub.Application/Interfaces/IEventRepository.cs
-- EventService: EduHub.Application/Services/EventService.cs
-- InMemoryEventRepository: EduHub.Infrastructure/Repositories/InMemoryEventRepository.cs
-- EventsController: EduHub.API/Controllers/EventsController.cs
 ## Câu 5b. Giải thích chiều phụ thuộc
 Project EduHub.Domain chứa các thành phần nghiệp vụ cốt lõi của hệ thống nên không được tham chiếu tới EduHub.Infrastructure.
 Lý do:
